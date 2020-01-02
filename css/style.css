@@ -5,14 +5,57 @@
 }
 
 body {
-  background-color: lightgreen;
+  background-color: #202527;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
 }
 
 .header_nav {
-  height: 90px;
-  background-color: blue;
+  height: 80px;
+  background-color: #202527;
+}
+
+.logo_nav {
+  width: 40%;
+  padding-top: 25px;
+}
+
+.menu_bar {
+  line-height: 80px;
+  vertical-align: middle;
+}
+
+.menu_bar li a {
+  color: #3F4D4D;
+  list-style: none;
+  text-decoration: none;
+}
+
+.menu_bar li a:hover, .menu_bar li i:hover {
+  color: white;
+}
+
+.menu_bar li i {
+  color: #3F4D4D;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.btn-lime {
+  border: 2px solid #A1DE42;
+  color: white;
+  background-color: #232525;
+  margin-right: 5px;
+}
+
+.btn-lime:hover, .btn-grey:hover {
+  color: #A1DE42;
+}
+
+.btn-grey {
+  background-color: #232525;
+  color: white;
+  border: 2px solid #3F4D4D;
 }
 
 .jumbo {

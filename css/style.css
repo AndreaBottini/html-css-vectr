@@ -5,9 +5,12 @@
 }
 
 body {
-  background-color: #202527;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
+}
+
+.rule_header {
+  background-color: #202527;
 }
 
 h1 {
@@ -105,6 +108,7 @@ h1 {
 .line_credits {
   height: 90px;
   background-color: yellow;
+  display: flex;
 }
 
 .quick_learn {
